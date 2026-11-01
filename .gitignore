@@ -1,0 +1,33 @@
+# Vercel
+.vercel/
+
+# Environment files (keep any future secrets out of Git)
+.env
+.env.*
+!.env.example
+
+# Dependencies (in case you add tools later)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
